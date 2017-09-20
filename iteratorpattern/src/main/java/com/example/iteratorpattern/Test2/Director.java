@@ -6,6 +6,7 @@ package com.example.iteratorpattern.Test2;
  */
 
 public class Director extends Leader {
+
     @Override
     protected int limit() {
         return 3000;
@@ -15,4 +16,7 @@ public class Director extends Leader {
     public void handle(int money) {
         System.out.println("Director handler request:"+money);
     }
+
+
+
 }
