@@ -1,1 +1,1 @@
-include ':app', ':iteratorpattern', ':singleton', ':builder'
+include ':app', ':iteratorpattern', ':singleton', ':builder', ':proxypattern2'
